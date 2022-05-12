@@ -29,6 +29,8 @@
 		BBCDF040282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCDF03F282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf */; };
 		BBCDF043282D547600FFC166 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF042282D547600FFC166 /* Font.swift */; };
 		BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF047282D559C00FFC166 /* Typealias.swift */; };
+		BBCDF04A282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */; };
+		BBCDF04C282D57E100FFC166 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF04B282D57E100FFC166 /* Assembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,8 @@
 		BBCDF03F282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SBSansDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
 		BBCDF042282D547600FFC166 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		BBCDF047282D559C00FFC166 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
+		BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyInitializableViewProtocol.swift; sourceTree = "<group>"; };
+		BBCDF04B282D57E100FFC166 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -272,6 +276,8 @@
 		BBCDF045282D558300FFC166 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
+				BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */,
+				BBCDF04B282D57E100FFC166 /* Assembly.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -424,6 +430,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCDF04A282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift in Sources */,
+				BBCDF04C282D57E100FFC166 /* Assembly.swift in Sources */,
 				BBCDF02A282D448E00FFC166 /* Localize.swift in Sources */,
 				BBCDF043282D547600FFC166 /* Font.swift in Sources */,
 				BBCDF025282D413D00FFC166 /* AppCoordinator.swift in Sources */,
