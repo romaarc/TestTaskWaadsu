@@ -1,9 +1,8 @@
 import Foundation
 
 enum Map {
-    enum SomeAction {
-        struct Request { }
-
+    ///Show maps data
+    enum MapLoad {
         struct Response {
             let result: Result<[Feature], Error>
         }
@@ -11,5 +10,10 @@ enum Map {
         struct ViewModel {
             let data: MapViewModel
         }
+    }
+    
+    /// Update map
+    enum MapUpdate {
+        struct Request {}
     }
 }

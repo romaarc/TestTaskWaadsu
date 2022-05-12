@@ -1,11 +1,23 @@
 import UIKit
 
 protocol MapPresenterProtocol {
-    func presentSomeActionResult(response: Map.SomeAction.Response)
+    func presentMap(response: Map.MapLoad.Response)
 }
 
 final class MapPresenter: MapPresenterProtocol {
     weak var viewController: MapViewControllerProtocol?
 
-    func presentSomeActionResult(response: Map.SomeAction.Response) { }
+    func presentMap(response: Map.MapLoad.Response) {
+        switch response.result {
+        case .success(let result):
+            ///Преобразую данные во вьюмодели
+            let viewModel = MapViewModel(
+                type: result[0].type,
+                features: result)
+            viewController?.displayMap(viewModel: .init(data: viewModel))
+        case .failure(_):
+            ///Обработать ошибку
+            break
+        }
+    }
 }

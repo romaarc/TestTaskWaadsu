@@ -2,7 +2,7 @@ import Foundation
 import PromiseKit
 
 protocol MapInteractorProtocol {
-    func doSomeAction(request: Map.SomeAction.Request)
+    func doMapUpdate(request: Map.MapUpdate.Request)
 }
 
 final class MapInteractor: MapInteractorProtocol {
@@ -19,10 +19,16 @@ final class MapInteractor: MapInteractorProtocol {
         self.provider = provider
     }
 
-    func doSomeAction(request: Map.SomeAction.Request) { }
+    func doMapUpdate(request: Map.MapUpdate.Request) {
+        provider.fetch().done { features in
+            self.presenter.presentMap(response: .init(result: .success(features)))
+        }.catch { _ in
+            self.presenter.presentMap(response: .init(result: .failure(Error.unloadable)))
+        }
+    }
 
     enum Error: Swift.Error {
-        case something
+        case unloadable
     }
 }
 

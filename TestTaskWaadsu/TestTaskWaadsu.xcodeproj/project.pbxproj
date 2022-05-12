@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099C88A27B48E7D89375FA79 /* MapProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A67F7EB103FEF6459E73F93 /* MapProvider.swift */; };
+		51438C6AC982B04FC0176B1D /* MapDataFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C4FBFDA68347787C200BFC /* MapDataFlow.swift */; };
+		5C69EF13B425640DC3567C64 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600B10B14E1291C49AE3919F /* MapInteractor.swift */; };
+		86A7A7831056D18A946B0C4E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF19F86E9657973EC32EE71 /* MapViewController.swift */; };
+		89135120BC838FA8F077EFD1 /* MapAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB7C3572357B3E8B2186F928 /* MapAssembly.swift */; };
+		897C84F115C1E05BCB4B7550 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1912530A19BBF869319D4012 /* MapView.swift */; };
+		9833715EBBB037DBA7E06264 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443716F0D5DC0F7A8F355C02 /* MapPresenter.swift */; };
+		9D3E0BFB3265645CA3627B14 /* MapInputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2AB9BDB5F47BAD19065 /* MapInputProtocol.swift */; };
 		BBCDEFED282D3C7A00FFC166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDEFEC282D3C7A00FFC166 /* AppDelegate.swift */; };
 		BBCDEFEF282D3C7A00FFC166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDEFEE282D3C7A00FFC166 /* SceneDelegate.swift */; };
-		BBCDEFF1282D3C7A00FFC166 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDEFF0282D3C7A00FFC166 /* ViewController.swift */; };
 		BBCDEFF6282D3C7B00FFC166 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBCDEFF5282D3C7B00FFC166 /* Assets.xcassets */; };
 		BBCDEFF9282D3C7B00FFC166 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBCDEFF7282D3C7B00FFC166 /* LaunchScreen.storyboard */; };
 		BBCDF004282D3C7B00FFC166 /* TestTaskWaadsuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF003282D3C7B00FFC166 /* TestTaskWaadsuTests.swift */; };
@@ -35,6 +42,8 @@
 		BBCDF050282D5A6B00FFC166 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF04F282D5A6B00FFC166 /* Feature.swift */; };
 		BBCDF052282D5A9600FFC166 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF051282D5A9600FFC166 /* Geometry.swift */; };
 		BBCDF054282D5AED00FFC166 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF053282D5AED00FFC166 /* Properties.swift */; };
+		BBCDF057282D64F100FFC166 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF056282D64F100FFC166 /* MapViewModel.swift */; };
+		D9ACE87143C07D8DDCBD484D /* MapOutputProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6047264D6828EAC0F49A0C0F /* MapOutputProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10C4FBFDA68347787C200BFC /* MapDataFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapDataFlow.swift; sourceTree = "<group>"; };
+		1912530A19BBF869319D4012 /* MapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		1EF19F86E9657973EC32EE71 /* MapViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		443716F0D5DC0F7A8F355C02 /* MapPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		5A67F7EB103FEF6459E73F93 /* MapProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapProvider.swift; sourceTree = "<group>"; };
+		600B10B14E1291C49AE3919F /* MapInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		6047264D6828EAC0F49A0C0F /* MapOutputProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapOutputProtocol.swift; sourceTree = "<group>"; };
+		BB7C3572357B3E8B2186F928 /* MapAssembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapAssembly.swift; sourceTree = "<group>"; };
 		BBCDEFE9282D3C7A00FFC166 /* TestTaskWaadsu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTaskWaadsu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCDEFEC282D3C7A00FFC166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBCDEFEE282D3C7A00FFC166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBCDEFF0282D3C7A00FFC166 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBCDEFF5282D3C7B00FFC166 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBCDEFF8282D3C7B00FFC166 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBCDEFFA282D3C7B00FFC166 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,6 +101,8 @@
 		BBCDF04F282D5A6B00FFC166 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
 		BBCDF051282D5A9600FFC166 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
 		BBCDF053282D5AED00FFC166 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
+		BBCDF056282D64F100FFC166 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		FD14D2AB9BDB5F47BAD19065 /* MapInputProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MapInputProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +132,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2EB84F7B5CA2DADC06C43168 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF055282D64BE00FFC166 /* ViewModel */,
+				BB7C3572357B3E8B2186F928 /* MapAssembly.swift */,
+				1EF19F86E9657973EC32EE71 /* MapViewController.swift */,
+				600B10B14E1291C49AE3919F /* MapInteractor.swift */,
+				443716F0D5DC0F7A8F355C02 /* MapPresenter.swift */,
+				10C4FBFDA68347787C200BFC /* MapDataFlow.swift */,
+				5A67F7EB103FEF6459E73F93 /* MapProvider.swift */,
+				1912530A19BBF869319D4012 /* MapView.swift */,
+				84A64F7FD454EC3BC0465032 /* InputOutput */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		84A64F7FD454EC3BC0465032 /* InputOutput */ = {
+			isa = PBXGroup;
+			children = (
+				FD14D2AB9BDB5F47BAD19065 /* MapInputProtocol.swift */,
+				6047264D6828EAC0F49A0C0F /* MapOutputProtocol.swift */,
+			);
+			path = InputOutput;
+			sourceTree = "<group>";
+		};
 		BBCDEFE0282D3C7A00FFC166 = {
 			isa = PBXGroup;
 			children = (
@@ -138,7 +181,6 @@
 			isa = PBXGroup;
 			children = (
 				BBCDF01C282D405500FFC166 /* Source */,
-				BBCDEFF0282D3C7A00FFC166 /* ViewController.swift */,
 				BBCDEFF5282D3C7B00FFC166 /* Assets.xcassets */,
 				BBCDEFF7282D3C7B00FFC166 /* LaunchScreen.storyboard */,
 				BBCDEFFA282D3C7B00FFC166 /* Info.plist */,
@@ -218,6 +260,7 @@
 		BBCDF021282D40AE00FFC166 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				2EB84F7B5CA2DADC06C43168 /* Map */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -288,8 +331,8 @@
 		BBCDF045282D558300FFC166 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */,
 				BBCDF04B282D57E100FFC166 /* Assembly.swift */,
+				BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -300,6 +343,14 @@
 				BBCDF047282D559C00FFC166 /* Typealias.swift */,
 			);
 			path = Typealise;
+			sourceTree = "<group>";
+		};
+		BBCDF055282D64BE00FFC166 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF056282D64F100FFC166 /* MapViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -452,15 +503,24 @@
 				BBCDF04E282D59ED00FFC166 /* Response.swift in Sources */,
 				BBCDF052282D5A9600FFC166 /* Geometry.swift in Sources */,
 				BBCDF027282D415000FFC166 /* AppDependency.swift in Sources */,
-				BBCDEFF1282D3C7A00FFC166 /* ViewController.swift in Sources */,
 				BBCDF037282D4D4000FFC166 /* NetworkServiceProtocol.swift in Sources */,
 				BBCDEFED282D3C7A00FFC166 /* AppDelegate.swift in Sources */,
 				BBCDF039282D4DCA00FFC166 /* NetworkService+Map.swift in Sources */,
 				BBCDEFEF282D3C7A00FFC166 /* SceneDelegate.swift in Sources */,
 				BBCDF050282D5A6B00FFC166 /* Feature.swift in Sources */,
 				BBCDF03B282D4E2700FFC166 /* URLFactory.swift in Sources */,
+				BBCDF057282D64F100FFC166 /* MapViewModel.swift in Sources */,
 				BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */,
 				BBCDF02D282D4B7700FFC166 /* API.swift in Sources */,
+				89135120BC838FA8F077EFD1 /* MapAssembly.swift in Sources */,
+				86A7A7831056D18A946B0C4E /* MapViewController.swift in Sources */,
+				5C69EF13B425640DC3567C64 /* MapInteractor.swift in Sources */,
+				9833715EBBB037DBA7E06264 /* MapPresenter.swift in Sources */,
+				51438C6AC982B04FC0176B1D /* MapDataFlow.swift in Sources */,
+				099C88A27B48E7D89375FA79 /* MapProvider.swift in Sources */,
+				897C84F115C1E05BCB4B7550 /* MapView.swift in Sources */,
+				9D3E0BFB3265645CA3627B14 /* MapInputProtocol.swift in Sources */,
+				D9ACE87143C07D8DDCBD484D /* MapOutputProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

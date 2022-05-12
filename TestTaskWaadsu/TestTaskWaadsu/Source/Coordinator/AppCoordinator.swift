@@ -61,9 +61,11 @@ private extension AppCoordinator {
         guard let navController = self.navigationControllers[.map] else {
             fatalError("something wrong with appCoordinator")
         }
-        let vc = ViewController()
-        vc.title = Localize.map
-        navController.setViewControllers([vc], animated: true)
+        let contex = ModuleContext(moduleDependencies: appDependency)
+        let container = MapAssembly()
+        let mapVC = container.makeModule(with: contex)
+        mapVC.title = Localize.map
+        navController.setViewControllers([mapVC], animated: true)
         setupAppearanceNavigationBar(with: navController)
     }
     
