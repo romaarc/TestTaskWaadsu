@@ -15,6 +15,20 @@
 		BBCDF004282D3C7B00FFC166 /* TestTaskWaadsuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF003282D3C7B00FFC166 /* TestTaskWaadsuTests.swift */; };
 		BBCDF00E282D3C7B00FFC166 /* TestTaskWaadsuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF00D282D3C7B00FFC166 /* TestTaskWaadsuUITests.swift */; };
 		BBCDF010282D3C7B00FFC166 /* TestTaskWaadsuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF00F282D3C7B00FFC166 /* TestTaskWaadsuUITestsLaunchTests.swift */; };
+		BBCDF025282D413D00FFC166 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF024282D413D00FFC166 /* AppCoordinator.swift */; };
+		BBCDF027282D415000FFC166 /* AppDependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF026282D415000FFC166 /* AppDependency.swift */; };
+		BBCDF02A282D448E00FFC166 /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF029282D448E00FFC166 /* Localize.swift */; };
+		BBCDF02D282D4B7700FFC166 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF02C282D4B7700FFC166 /* API.swift */; };
+		BBCDF030282D4C6700FFC166 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBCDF02F282D4C6700FFC166 /* PromiseKit */; };
+		BBCDF033282D4C7C00FFC166 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBCDF032282D4C7C00FFC166 /* SnapKit */; };
+		BBCDF035282D4CA200FFC166 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF034282D4CA200FFC166 /* NetworkService.swift */; };
+		BBCDF037282D4D4000FFC166 /* NetworkServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF036282D4D4000FFC166 /* NetworkServiceProtocol.swift */; };
+		BBCDF039282D4DCA00FFC166 /* NetworkService+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF038282D4DCA00FFC166 /* NetworkService+Map.swift */; };
+		BBCDF03B282D4E2700FFC166 /* URLFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF03A282D4E2700FFC166 /* URLFactory.swift */; };
+		BBCDF03E282D53CB00FFC166 /* SBSansUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCDF03D282D53C600FFC166 /* SBSansUI-Regular.ttf */; };
+		BBCDF040282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BBCDF03F282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf */; };
+		BBCDF043282D547600FFC166 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF042282D547600FFC166 /* Font.swift */; };
+		BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF047282D559C00FFC166 /* Typealias.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,18 @@
 		BBCDF009282D3C7B00FFC166 /* TestTaskWaadsuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTaskWaadsuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBCDF00D282D3C7B00FFC166 /* TestTaskWaadsuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskWaadsuUITests.swift; sourceTree = "<group>"; };
 		BBCDF00F282D3C7B00FFC166 /* TestTaskWaadsuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTaskWaadsuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBCDF024282D413D00FFC166 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		BBCDF026282D415000FFC166 /* AppDependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependency.swift; sourceTree = "<group>"; };
+		BBCDF029282D448E00FFC166 /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		BBCDF02C282D4B7700FFC166 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BBCDF034282D4CA200FFC166 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BBCDF036282D4D4000FFC166 /* NetworkServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceProtocol.swift; sourceTree = "<group>"; };
+		BBCDF038282D4DCA00FFC166 /* NetworkService+Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NetworkService+Map.swift"; sourceTree = "<group>"; };
+		BBCDF03A282D4E2700FFC166 /* URLFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLFactory.swift; sourceTree = "<group>"; };
+		BBCDF03D282D53C600FFC166 /* SBSansUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SBSansUI-Regular.ttf"; sourceTree = "<group>"; };
+		BBCDF03F282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SBSansDisplay-SemiBold.ttf"; sourceTree = "<group>"; };
+		BBCDF042282D547600FFC166 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		BBCDF047282D559C00FFC166 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCDF030282D4C6700FFC166 /* PromiseKit in Frameworks */,
+				BBCDF033282D4C7C00FFC166 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,8 +125,7 @@
 		BBCDEFEB282D3C7A00FFC166 /* TestTaskWaadsu */ = {
 			isa = PBXGroup;
 			children = (
-				BBCDEFEC282D3C7A00FFC166 /* AppDelegate.swift */,
-				BBCDEFEE282D3C7A00FFC166 /* SceneDelegate.swift */,
+				BBCDF01C282D405500FFC166 /* Source */,
 				BBCDEFF0282D3C7A00FFC166 /* ViewController.swift */,
 				BBCDEFF5282D3C7B00FFC166 /* Assets.xcassets */,
 				BBCDEFF7282D3C7B00FFC166 /* LaunchScreen.storyboard */,
@@ -124,6 +151,139 @@
 			path = TestTaskWaadsuUITests;
 			sourceTree = "<group>";
 		};
+		BBCDF01C282D405500FFC166 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF01D282D405F00FFC166 /* Application */,
+				BBCDF01E282D407000FFC166 /* Coordinator */,
+				BBCDF01F282D409800FFC166 /* Common */,
+				BBCDF020282D40A300FFC166 /* Models */,
+				BBCDF021282D40AE00FFC166 /* Modules */,
+				BBCDF022282D40CB00FFC166 /* Services */,
+				BBCDF023282D40E800FFC166 /* Helpers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BBCDF01D282D405F00FFC166 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDEFEC282D3C7A00FFC166 /* AppDelegate.swift */,
+				BBCDEFEE282D3C7A00FFC166 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		BBCDF01E282D407000FFC166 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF024282D413D00FFC166 /* AppCoordinator.swift */,
+				BBCDF026282D415000FFC166 /* AppDependency.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		BBCDF01F282D409800FFC166 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF046282D558C00FFC166 /* Typealise */,
+				BBCDF044282D557200FFC166 /* VIP */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BBCDF020282D40A300FFC166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BBCDF021282D40AE00FFC166 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		BBCDF022282D40CB00FFC166 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF02B282D4B5700FFC166 /* Network */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BBCDF023282D40E800FFC166 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF028282D448400FFC166 /* Constants */,
+				BBCDF03C282D539C00FFC166 /* Font */,
+				BBCDF041282D545600FFC166 /* UIKit */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BBCDF028282D448400FFC166 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF029282D448E00FFC166 /* Localize.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BBCDF02B282D4B5700FFC166 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF02C282D4B7700FFC166 /* API.swift */,
+				BBCDF034282D4CA200FFC166 /* NetworkService.swift */,
+				BBCDF038282D4DCA00FFC166 /* NetworkService+Map.swift */,
+				BBCDF036282D4D4000FFC166 /* NetworkServiceProtocol.swift */,
+				BBCDF03A282D4E2700FFC166 /* URLFactory.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BBCDF03C282D539C00FFC166 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF03D282D53C600FFC166 /* SBSansUI-Regular.ttf */,
+				BBCDF03F282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BBCDF041282D545600FFC166 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF042282D547600FFC166 /* Font.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		BBCDF044282D557200FFC166 /* VIP */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF045282D558300FFC166 /* Protocols */,
+			);
+			path = VIP;
+			sourceTree = "<group>";
+		};
+		BBCDF045282D558300FFC166 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BBCDF046282D558C00FFC166 /* Typealise */ = {
+			isa = PBXGroup;
+			children = (
+				BBCDF047282D559C00FFC166 /* Typealias.swift */,
+			);
+			path = Typealise;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +300,10 @@
 			dependencies = (
 			);
 			name = TestTaskWaadsu;
+			packageProductDependencies = (
+				BBCDF02F282D4C6700FFC166 /* PromiseKit */,
+				BBCDF032282D4C7C00FFC166 /* SnapKit */,
+			);
 			productName = TestTaskWaadsu;
 			productReference = BBCDEFE9282D3C7A00FFC166 /* TestTaskWaadsu.app */;
 			productType = "com.apple.product-type.application";
@@ -212,6 +376,10 @@
 				Base,
 			);
 			mainGroup = BBCDEFE0282D3C7A00FFC166;
+			packageReferences = (
+				BBCDF02E282D4C6700FFC166 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				BBCDF031282D4C7C00FFC166 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = BBCDEFEA282D3C7A00FFC166 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -228,7 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCDF03E282D53CB00FFC166 /* SBSansUI-Regular.ttf in Resources */,
 				BBCDEFF9282D3C7B00FFC166 /* LaunchScreen.storyboard in Resources */,
+				BBCDF040282D53D500FFC166 /* SBSansDisplay-SemiBold.ttf in Resources */,
 				BBCDEFF6282D3C7B00FFC166 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,9 +424,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBCDF02A282D448E00FFC166 /* Localize.swift in Sources */,
+				BBCDF043282D547600FFC166 /* Font.swift in Sources */,
+				BBCDF025282D413D00FFC166 /* AppCoordinator.swift in Sources */,
+				BBCDF035282D4CA200FFC166 /* NetworkService.swift in Sources */,
+				BBCDF027282D415000FFC166 /* AppDependency.swift in Sources */,
 				BBCDEFF1282D3C7A00FFC166 /* ViewController.swift in Sources */,
+				BBCDF037282D4D4000FFC166 /* NetworkServiceProtocol.swift in Sources */,
 				BBCDEFED282D3C7A00FFC166 /* AppDelegate.swift in Sources */,
+				BBCDF039282D4DCA00FFC166 /* NetworkService+Map.swift in Sources */,
 				BBCDEFEF282D3C7A00FFC166 /* SceneDelegate.swift in Sources */,
+				BBCDF03B282D4E2700FFC166 /* URLFactory.swift in Sources */,
+				BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */,
+				BBCDF02D282D4B7700FFC166 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,6 +772,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BBCDF02E282D4C6700FFC166 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				branch = v6;
+				kind = branch;
+			};
+		};
+		BBCDF031282D4C7C00FFC166 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BBCDF02F282D4C6700FFC166 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBCDF02E282D4C6700FFC166 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		BBCDF032282D4C7C00FFC166 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBCDF031282D4C7C00FFC166 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BBCDEFE1282D3C7A00FFC166 /* Project object */;
 }
