@@ -21,7 +21,7 @@ enum URLFactory {
         return urlComponents
     }()
     
-    static func get() -> URLRequest {
+    static func getURL() -> URLRequest {
         let urlComponents = baseURLComponents
         var request = URLRequest(url: urlComponents.url!.appendingPathComponent(API.TypeOf.russia))
         request.httpMethod = HTTPMethod.get.rawValue

@@ -31,6 +31,10 @@
 		BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF047282D559C00FFC166 /* Typealias.swift */; };
 		BBCDF04A282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */; };
 		BBCDF04C282D57E100FFC166 /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF04B282D57E100FFC166 /* Assembly.swift */; };
+		BBCDF04E282D59ED00FFC166 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF04D282D59ED00FFC166 /* Response.swift */; };
+		BBCDF050282D5A6B00FFC166 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF04F282D5A6B00FFC166 /* Feature.swift */; };
+		BBCDF052282D5A9600FFC166 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF051282D5A9600FFC166 /* Geometry.swift */; };
+		BBCDF054282D5AED00FFC166 /* Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCDF053282D5AED00FFC166 /* Properties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +81,10 @@
 		BBCDF047282D559C00FFC166 /* Typealias.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		BBCDF049282D57C200FFC166 /* ProgrammaticallyInitializableViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticallyInitializableViewProtocol.swift; sourceTree = "<group>"; };
 		BBCDF04B282D57E100FFC166 /* Assembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assembly.swift; sourceTree = "<group>"; };
+		BBCDF04D282D59ED00FFC166 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		BBCDF04F282D5A6B00FFC166 /* Feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		BBCDF051282D5A9600FFC166 /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		BBCDF053282D5AED00FFC166 /* Properties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Properties.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +207,10 @@
 		BBCDF020282D40A300FFC166 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				BBCDF04D282D59ED00FFC166 /* Response.swift */,
+				BBCDF04F282D5A6B00FFC166 /* Feature.swift */,
+				BBCDF053282D5AED00FFC166 /* Properties.swift */,
+				BBCDF051282D5A9600FFC166 /* Geometry.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -434,14 +446,18 @@
 				BBCDF04C282D57E100FFC166 /* Assembly.swift in Sources */,
 				BBCDF02A282D448E00FFC166 /* Localize.swift in Sources */,
 				BBCDF043282D547600FFC166 /* Font.swift in Sources */,
+				BBCDF054282D5AED00FFC166 /* Properties.swift in Sources */,
 				BBCDF025282D413D00FFC166 /* AppCoordinator.swift in Sources */,
 				BBCDF035282D4CA200FFC166 /* NetworkService.swift in Sources */,
+				BBCDF04E282D59ED00FFC166 /* Response.swift in Sources */,
+				BBCDF052282D5A9600FFC166 /* Geometry.swift in Sources */,
 				BBCDF027282D415000FFC166 /* AppDependency.swift in Sources */,
 				BBCDEFF1282D3C7A00FFC166 /* ViewController.swift in Sources */,
 				BBCDF037282D4D4000FFC166 /* NetworkServiceProtocol.swift in Sources */,
 				BBCDEFED282D3C7A00FFC166 /* AppDelegate.swift in Sources */,
 				BBCDF039282D4DCA00FFC166 /* NetworkService+Map.swift in Sources */,
 				BBCDEFEF282D3C7A00FFC166 /* SceneDelegate.swift in Sources */,
+				BBCDF050282D5A6B00FFC166 /* Feature.swift in Sources */,
 				BBCDF03B282D4E2700FFC166 /* URLFactory.swift in Sources */,
 				BBCDF048282D559C00FFC166 /* Typealias.swift in Sources */,
 				BBCDF02D282D4B7700FFC166 /* API.swift in Sources */,

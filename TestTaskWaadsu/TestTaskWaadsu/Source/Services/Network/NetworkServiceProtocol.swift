@@ -10,5 +10,5 @@ import PromiseKit
 
 ///protocol NetworkServiceProtocol, чтобы использовать в AppDependency и в дальнейшем реализовать метод fetch
 protocol NetworkServiceProtocol {
-    //func fetch(with params: StoryURLParameters) -> Promise<>
+    func fetch() -> Promise<Response<Feature>>
 }

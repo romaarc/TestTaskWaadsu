@@ -10,7 +10,7 @@ import PromiseKit
 
 /// extension NetworkService реализуем метод протокола NetworkServiceProtocol
 extension NetworkService: NetworkServiceProtocol {
-//    func fetch(with params: StoryURLParameters) -> Promise<> {
-//        baseRequest(request: URLFactory.get(params: params))
-//    }
+    func fetch() -> Promise<Response<Feature>> {
+        baseRequest(request: URLFactory.getURL())
+    }
 }
