@@ -11,9 +11,7 @@ final class MapPresenter: MapPresenterProtocol {
         switch response.result {
         case .success(let result):
             ///Преобразую данные во вьюмодели
-            let viewModel = MapViewModel(
-                type: result[0].type,
-                features: result)
+            let viewModel = MapViewModel(features: result)
             viewController?.displayMap(viewModel: .init(data: viewModel))
         case .failure(_):
             ///Обработать ошибку

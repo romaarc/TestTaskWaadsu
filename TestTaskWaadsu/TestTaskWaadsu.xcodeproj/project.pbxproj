@@ -135,14 +135,13 @@
 		2EB84F7B5CA2DADC06C43168 /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				BBCDF055282D64BE00FFC166 /* ViewModel */,
+				BB302D49282ED5870045748D /* View */,
 				BB7C3572357B3E8B2186F928 /* MapAssembly.swift */,
 				1EF19F86E9657973EC32EE71 /* MapViewController.swift */,
 				600B10B14E1291C49AE3919F /* MapInteractor.swift */,
 				443716F0D5DC0F7A8F355C02 /* MapPresenter.swift */,
 				10C4FBFDA68347787C200BFC /* MapDataFlow.swift */,
 				5A67F7EB103FEF6459E73F93 /* MapProvider.swift */,
-				1912530A19BBF869319D4012 /* MapView.swift */,
 				84A64F7FD454EC3BC0465032 /* InputOutput */,
 			);
 			path = Map;
@@ -155,6 +154,15 @@
 				6047264D6828EAC0F49A0C0F /* MapOutputProtocol.swift */,
 			);
 			path = InputOutput;
+			sourceTree = "<group>";
+		};
+		BB302D49282ED5870045748D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1912530A19BBF869319D4012 /* MapView.swift */,
+				BBCDF056282D64F100FFC166 /* MapViewModel.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BBCDEFE0282D3C7A00FFC166 = {
@@ -343,14 +351,6 @@
 				BBCDF047282D559C00FFC166 /* Typealias.swift */,
 			);
 			path = Typealise;
-			sourceTree = "<group>";
-		};
-		BBCDF055282D64BE00FFC166 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				BBCDF056282D64F100FFC166 /* MapViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
