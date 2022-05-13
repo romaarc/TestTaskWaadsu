@@ -31,6 +31,6 @@ Unit tests с positive и negative testing - обязательны. - (Не р�
 ## Deployment Target
 iOS 13
 ## Архитектура приложения
-**Clean Swift + Coordinator + micro DI + Services (URLSession PromiseKit version)**<br>
+**Clean Swift + Services (URLSession PromiseKit version)**<br>
 ## UI
 **UIKit without Storyboard and Xibs, only layout with code**<br>
