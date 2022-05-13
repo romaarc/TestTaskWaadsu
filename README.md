@@ -26,7 +26,6 @@ Unit tests с positive и negative testing - обязательны. - (Не р�
 У вас должны быть установлены SPM:
 * <a href="https://github.com/SnapKit/SnapKit">Snapkit</a>
 * <a href="https://github.com/mxcl/PromiseKit">PromiseKit</a>
-* <a href="https://github.com/onevcat/Kingfisher">Kingfisher</a>
 
 # Детали реализации
 ## Deployment Target
