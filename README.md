@@ -37,3 +37,6 @@ iOS 13
 **Clean Swift + Services (URLSession PromiseKit version)**<br>
 ## UI
 **UIKit without Storyboard and Xibs, only layout with code**<br>
+## Unit-Tests code coverage
+<img width="1104" alt="Screenshot 2022-05-15 at 01 39 59" src="https://user-images.githubusercontent.com/28999468/168450278-839e5677-bc94-4257-a795-a236bc156f5a.png">
+
