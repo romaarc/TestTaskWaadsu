@@ -16,7 +16,7 @@
 
 Код должен  соответствовать Clean Architecture, а также принципам разработки KISS и DRY. 
 
-Unit tests с positive и negative testing - обязательны. - (Не реализовано)
+Unit tests с positive и negative testing - обязательны.
 
 # Экраны
 ![hippo](https://media.giphy.com/media/MGKkUEyqAnijF8mIuK/giphy.gif)
