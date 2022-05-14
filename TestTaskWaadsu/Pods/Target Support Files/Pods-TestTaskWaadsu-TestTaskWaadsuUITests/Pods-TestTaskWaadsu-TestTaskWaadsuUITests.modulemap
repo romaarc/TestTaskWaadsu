@@ -1,0 +1,6 @@
+framework module Pods_TestTaskWaadsu_TestTaskWaadsuUITests {
+  umbrella header "Pods-TestTaskWaadsu-TestTaskWaadsuUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
