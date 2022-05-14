@@ -56,6 +56,7 @@ extension MapView: ProgrammaticallyInitializableViewProtocol {
         mapView.snp.makeConstraints { make in
             make.edges.equalToSuperview()
         }
+        
         routeLabel.snp.makeConstraints { make in
             make.leading.equalToSuperview().offset(27)
             make.trailing.equalToSuperview().offset(-27)
