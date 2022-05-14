@@ -27,6 +27,9 @@ Unit tests с positive и negative testing - обязательны.
 * <a href="https://github.com/SnapKit/SnapKit">SnapKit</a>
 * <a href="https://github.com/mxcl/PromiseKit">PromiseKit</a>
 
+У вас должны быть установлены Pods:
+* <a href="https://github.com/Quick/Quick">Quick, Nimble</a>
+
 # Детали реализации
 ## Deployment Target
 iOS 13
